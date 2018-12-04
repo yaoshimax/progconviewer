@@ -1,0 +1,6 @@
+export const Config = {
+   //fill in below parameters, and rename this file to config.js
+   codeforces_api_key: '',
+   codeforces_api_secret: '',
+   codeforces_target_handlename: '',
+};

@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul li{
+   color:#282c34;
+   list-style: none;
+}
+ul.category{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    -webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+ul.category li{
+   border:1px solid #aaa;
+   margin-left:-1px;
+   margin-top:-1px;
+   text-align:center;
+}
+ul.category li.title{
+   padding:0 10px 0 10px;
+   width:400px;
+   background-color:#ddd;
+   word-wrap:break-word;
+}
+ul.category li.not-tried{
+   background-color:#eee;
+}
+ul.category li.cleared{
+   background-color:#cfc;
+}
+ul.category li.failed{
+   background-color:#fcc;
+}
+ul.category a{
+   text-decoration:none;
+   color:#282c34;
+   padding:0 10px 0 10px;
+   display:block;
+   transition: 0.3s;
+}
+ul.category li.not-tried a:hover{
+   background-color:#aaa;
+}
+ul.category li.cleared a:hover{
+   background-color:#aea;
+}
+ul.category li.failed a:hover{
+   background-color:#eaa;
+}
+.submit-info{
+   font-size: calc(2vmin);
+}
