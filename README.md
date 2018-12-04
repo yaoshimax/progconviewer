@@ -2,7 +2,7 @@
 Viewer for the Codeforces Editorial Rounds.
 
 ## Demo
-[demo](./progconviewer.gif)
+![](https://github.com/yaoshimax/progconviewer/blob/media/media/demo.gif)
 
 ## Usage
 
